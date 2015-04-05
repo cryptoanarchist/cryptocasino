@@ -98,9 +98,6 @@ CREATE TABLE `ga_players` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-INSERT INTO `ga_players` (`id`, `username`, `passwd`, `ga_token`) VALUES
-(1, 'playertest',  '6d2aff483952d904179ca0c8c536a2c7', '');
-
 DROP TABLE IF EXISTS `players`;
 CREATE TABLE `players` (
   `id` int(255) NOT NULL AUTO_INCREMENT,
